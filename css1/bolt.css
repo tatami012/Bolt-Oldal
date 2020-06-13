@@ -1,0 +1,27 @@
+h1 {
+    font-size: 50px;
+    font-family: fantasy;
+    color: rgb(4, 4, 105);
+    text-align: center;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+ul{
+    font-style: initial;
+    color: red;
+    text-align: left;
+}
+ol{
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: maroon;
+    text-align: left;
+}
+table{
+    color: orangered;
+}
+tfoot{
+    color: orangered;
+}
