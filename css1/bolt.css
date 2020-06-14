@@ -1,12 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;1,400&family=Metal+Mania&family=Roboto:wght@100&display=swap');
+
 h1 {
     font-size: 50px;
-    font-family: fantasy;
+    font-family: 'Roboto', sans-serif;
     color: rgb(4, 4, 105);
     text-align: center;
 }
+#bemutat{color: maroon;}
+#szoveg {
+    color: olive;
+    font-family: 'Lora', serif;
+    
+}
+#cim{ color: mediumspringgreen;
+    font-size: xx-large;
+    font-family: 'Lora', serif;
+    font-weight: 900;
+
+}
+#menu {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 35px;
+}
 p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: justify;
+    font-family: 'Lora', serif;
+    text-align: center;
+    color: indigo;
+    
+    
 }
 ul{
     font-style: initial;
