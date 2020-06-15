@@ -18,12 +18,34 @@ h1 {
     font-weight: 900;
 
 }
-#menu {
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: left;
-    font-size: 35px;
+
 }
+.hello {
+    color: blue;
+}
+.name {
+    font-weight: bold;
+    color : darkred;
+}
+.menü {
+   background-color: fuchsia;
+   font-size: xx-large;
+
+}
+.macsek {
+    background-color: green
+}
+.my {
+    font-weight: bold;
+    color: navy;
+    background-color: cyan;
+}
+.content {
+    color: blue;
+    font-weight: lighter;
+    background-color: crimson;
+}
+
 p{
     font-family: 'Lora', serif;
     text-align: center;
@@ -43,8 +65,5 @@ ol{
     text-align: left;
 }
 table{
-    color: orangered;
-}
-tfoot{
     color: orangered;
 }
