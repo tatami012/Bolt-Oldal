@@ -33,7 +33,8 @@ h1 {
 
 }
 .macsek {
-    background-color: green
+    background-color: green;
+    text-align: center;
 }
 .my {
     font-weight: bold;
