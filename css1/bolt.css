@@ -26,7 +26,7 @@ background-color: coral;
 background-color: coral;
 }
 .menü-1{
-    position: initial;
+    position: fixed;
      top :10px;
     left: 10px;
     background-color: coral;
