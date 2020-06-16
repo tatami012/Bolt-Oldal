@@ -1,41 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;1,400&family=Metal+Mania&family=Roboto:wght@100&display=swap');
 
+html {
+    background-color: orangered;
+    background: url("/img/Kép-0011.jpg");
+
+}
 h1 {
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
     color: rgb(4, 4, 105);
     text-align: center;
+    background-color: coral;
 }
-#bemutat{color: maroon;}
+#bemutat{color: rgb(131, 83, 65);
+background-color: coral;
+}
 #szoveg {
-    color: olive;
+    color:blue;
     font-family: 'Lora', serif;
-    
+    background-color: coral;
 }
 #cim{ color: mediumspringgreen;
     font-size: xx-large;
     font-family: 'Lora', serif;
     font-weight: 900;
+background-color: coral;
+}
+.menü-1{
+    position: initial;
+     top :10px;
+    left: 10px;
+    background-color: coral;
 
 }
 
-}
+
 .hello {
     color: blue;
+    background-color: coral;
 }
 .name {
     font-weight: bold;
     color : darkred;
+    background-color: coral;
 }
 .menü {
-   background-color: fuchsia;
+   background-color: coral;
    font-size: xx-large;
 
 }
-.macsek {
-    background-color: green;
-    text-align: center;
-}
+
 .my {
     font-weight: bold;
     color: navy;
@@ -44,7 +58,7 @@ h1 {
 .content {
     color: blue;
     font-weight: lighter;
-    background-color: crimson;
+    background-color: coral;
 }
 
 p{
@@ -56,15 +70,18 @@ p{
 }
 ul{
     font-style: initial;
-    color: red;
+    color: black;
     text-align: left;
+    background-color: coral;
 }
 ol{
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
     color: maroon;
     text-align: left;
+    background-color: coral;
 }
 table{
-    color: orangered;
+    color: black;
+    background-color: coral;
 }
