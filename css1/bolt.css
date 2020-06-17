@@ -2,12 +2,8 @@
 
 html {
     background-color: orangered;
-<<<<<<< HEAD
     background: url("/img/Kép-0011.jpg");
 
-=======
-    background-image: url("https://github.com/tatami012/Bolt-Oldal/blob/master/img/K%C3%A9p-0011.jpg.");
->>>>>>> f0d9cd7d7c719cf076f1263785dec0ec08685e8a
 }
 h1 {
     font-size: 50px;
