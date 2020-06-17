@@ -1,16 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;1,400&family=Metal+Mania&family=Roboto:wght@100&display=swap');
 
 html {
-    background-color: orangered;
-    background: url("../img/Kép-0011.jpg");
+    background-color: rgb(255, 166, 0);
+    background-image:  url("../img/Kép-0011.jpg"); 
+    background-size: 100px, 100px;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
 
 }
 h1 {
-    font-size: 50px;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(4, 4, 105);
+    font-size: 38px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0,0,255);
     text-align: center;
-    background-color: coral;
+    background-color:white;
+     box-sizing: content-box;
+     width: fit-content;
+  height: 50px;
+  padding: 20px;
+  border: 10px solid blue;
+ top: auto;
+ left: auto;
 }
 #bemutat{color: rgb(131, 83, 65);
 background-color: coral;
@@ -27,10 +37,14 @@ background-color: coral;
 background-color: coral;
 }
 .menü-1{
+    box-sizing: content-box;
+    width: fit-content;
+    height: fit-content;
     position: fixed;
      top :100px;
     right: 100px;
     background-color: coral;
+    border:  5px solid orangered;
 
 }
 
@@ -46,7 +60,8 @@ background-color: coral;
 }
 .menü {
    background-color: coral;
-   font-size: xx-large;
+   font-size: 30px;
+  
 
 }
 
@@ -73,6 +88,7 @@ ul{
     color: black;
     text-align: left;
     background-color: coral;
+    border: 5px solid orangered;
 }
 ol{
     font-weight: lighter;
