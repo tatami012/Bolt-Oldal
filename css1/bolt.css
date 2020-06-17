@@ -2,7 +2,7 @@
 
 html {
     background-color: orangered;
-    background-image: url("/img/kép-0011.jpg/");
+    background: url("/img/kép-0011.jpg/");
 }
 h1 {
     font-size: 50px;
