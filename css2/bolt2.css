@@ -1,24 +1,40 @@
 .login-div{
     background-color: #c0c0c0;
-    display: inline-block;
-    border: solid 1px;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    right: 20px;
+    top: 350px;
+    border: solid 2px orangered;
     padding: 2px;
     box-shadow: 0 0 10px orangered;
 }
 .login-div input[type="Email"]{
-    border: solid 1px red;
-    box-shadow: 10px  10px 10px red;
+    border: solid 1px blue;
+    display: block; 
 }
 .login-div input[type="password"]{
-    border: solid 1px green;
-      box-shadow: 10px  10px 10px green;   
+    border: solid 1px blue;
+      display: block;
+width: fit-content;
+height: fit-content;   
   }
-  .login{
-      box-sizing: content-box;
+  .login-div input:focus {
+    box-shadow: 4px 4px 3px maroon;
+    border: none;
     
+  }
+  .login-div button:hover {
+      box-shadow: 2px 2px 10px  red;
+  }
+  #login{
+      display: block;
+      width: fit-content;
+      height: fit-content;
+       padding:  5px;
         font-size: 15px;
-        display: inline-block;
-        border: solid 2px blue; 
-        width: fit-content;
+        background-color: white;
+               border: solid 2px blue; 
         bottom: auto;
   }  

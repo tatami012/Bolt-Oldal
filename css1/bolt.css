@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;1,400&family=Metal+Mania&family=Roboto:wght@100&display=swap');
 
 html {
-    background-color: rgb(255, 166, 0);
+    background-color: rgb(75, 70, 134);
     background-image:  url("../img/Kép-0011.jpg"); 
     background-size: 100px, 100px;
     background-repeat: repeat-x;
     background-attachment: fixed;
+    text-align: center;
 
 }
 h1 {
@@ -19,32 +20,41 @@ h1 {
   height: 50px;
   padding: 20px;
   border: 10px solid blue;
- top: auto;
- left: auto;
+ top: 3cm;
+ right: 0;
 }
 #bemutat{color: rgb(131, 83, 65);
 background-color: coral;
+display: block;
+    height: fit-content;
+    width: fit-content;
 }
 #szoveg {
     color:blue;
     font-family: 'Lora', serif;
     background-color: coral;
+    display: block;
+    width: 50%;
+    position: relative;
 }
 #cim{ color: mediumspringgreen;
     font-size: xx-large;
     font-family: 'Lora', serif;
     font-weight: 900;
 background-color: coral;
+display: block;
+width:50%;
 }
 .menü-1{
-    box-sizing: content-box;
+    display: block;
     width: fit-content;
     height: fit-content;
-    position: fixed;
-     top :100px;
-    right: 100px;
+    position: absolute;
+    top: 20px;
+    right: 0;
     background-color: coral;
     border:  5px solid orangered;
+    box-shadow: 3px 3px 3px red;
 
 }
 
@@ -52,23 +62,48 @@ background-color: coral;
 .hello {
     color: blue;
     background-color: coral;
+    display: block;
+width:50%;
 }
 .name {
     font-weight: bold;
     color : darkred;
     background-color: coral;
+    display: block;
+width:50%;
 }
 .menü {
+    display: contents;
+    width: fit-content;
+    height: fit-content;
    background-color: coral;
-   font-size: 30px;
-  
+   font-size: 50px;
+   }
+   .termek{
+  font-size: 50px;     
+display: block;
+height: fit-content;
+width: fit-content;
+position:  relative;
+top: 20px;
+left: 0;
 
+   
+  }
+#cim2{
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    background-color: coral;
+    position: relative;
+    left: 0;
 }
-
 .my {
     font-weight: bold;
     color: navy;
     background-color: cyan;
+    display: block;
+width:50%;
 }
 .content {
     color: blue;
@@ -80,6 +115,8 @@ p{
     font-family: 'Lora', serif;
     text-align: center;
     color: indigo;
+    display: block;
+width:50%;
     
     
 }
@@ -100,4 +137,13 @@ ol{
 table{
     color: black;
     background-color: coral;
+}
+.open{
+    font-size: 50px;
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    background-color: coral;
+    position: relative;
+    left: 0;
 }
