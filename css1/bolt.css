@@ -4,54 +4,48 @@ html {
     background-color: rgb(75, 70, 134);
     background-image:  url("../img/Kép-0011.jpg"); 
     background-size: 100px, 100px;
-    background-repeat: repeat-x;
-    background-attachment: fixed;
-    text-align: center;
-
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: lighten;
+  
 }
-h1 {
-    font-size: 38px;
+
+
+.header {
+    font-size: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(0,0,255);
     text-align: center;
-    background-color:white;
-     box-sizing: content-box;
-     width: fit-content;
-  height: 50px;
-  padding: 20px;
+    background-color:white;        
   border: 10px solid blue;
- top: 3cm;
- right: 0;
 }
-#bemutat{color: rgb(131, 83, 65);
+.bemutat{color: rgb(131, 83, 65);
 background-color: coral;
 display: block;
     height: fit-content;
     width: fit-content;
+   
+
 }
 #szoveg {
+   
     color:blue;
     font-family: 'Lora', serif;
     background-color: coral;
     display: block;
     width: 50%;
     position: relative;
+
 }
-#cim{ color: mediumspringgreen;
-    font-size: xx-large;
-    font-family: 'Lora', serif;
-    font-weight: 900;
-background-color: coral;
-display: block;
-width:50%;
-}
+
 .menü-1{
     display: block;
     width: fit-content;
     height: fit-content;
-    position: absolute;
-    top: 20px;
-    right: 0;
+    
+    
     background-color: coral;
     border:  5px solid orangered;
     box-shadow: 3px 3px 3px red;
@@ -63,7 +57,9 @@ width:50%;
     color: blue;
     background-color: coral;
     display: block;
-width:50%;
+    width:50%;
+
+    
 }
 .name {
     font-weight: bold;
@@ -73,11 +69,12 @@ width:50%;
 width:50%;
 }
 .menü {
-    display: contents;
+    display: block;
     width: fit-content;
     height: fit-content;
    background-color: coral;
-   font-size: 50px;
+   font-size: 15px;
+   
    }
    .termek{
   font-size: 50px;     
@@ -95,6 +92,7 @@ left: 0;
     height: fit-content;
     width: fit-content;
     background-color: coral;
+    color: darkred;
     position: relative;
     left: 0;
 }
@@ -116,7 +114,13 @@ p{
     text-align: center;
     color: indigo;
     display: block;
+    position: absolute;
+    top: auto;
+    left: 10cm;
 width:50%;
+column-span: all;
+column-width: 200px;
+
     
     
 }
@@ -146,4 +150,9 @@ table{
     background-color: coral;
     position: relative;
     left: 0;
+}
+#open{
+    top: auto;
+    border-radius: 2em;
+    
 }

@@ -3,12 +3,13 @@
     display: block;
     width: fit-content;
     height: fit-content;
-    position: absolute;
+    position: fixed;
     right: 20px;
     top: 350px;
     border: solid 2px orangered;
     padding: 2px;
     box-shadow: 0 0 10px orangered;
+    top: 5em;
 }
 .login-div input[type="Email"]{
     border: solid 1px blue;
