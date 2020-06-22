@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;1,400&family=Metal+Mania&family=Roboto:wght@100&display=swap');
 
 html {
+    margin: 2px 10px 10px 10px;
     background-color: rgb(75, 70, 134);
-    background-image:  url("../img/Kép-0011.jpg"); 
-    background-size: 100px, 100px;
+    background: url("../img\/hatterkep.png");
+   background-size: 100px, 100px;
     background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -14,16 +15,16 @@ html {
 
 
 .header {
+     background-image:  url("../img/Kép-0011.jpg"); 
     font-size: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(0,0,255);
+    color:white;
     text-align: center;
     background-color:white;        
-  border: 10px solid blue;
+  border: 2px solid black;
 }
 .bemutat{color: rgb(131, 83, 65);
-background-color: coral;
-display: block;
+display: contents;
     height: fit-content;
     width: fit-content;
    
@@ -33,21 +34,15 @@ display: block;
    
     color:blue;
     font-family: 'Lora', serif;
-    background-color: coral;
-    display: block;
+   display: contents;
     width: 50%;
-    position: relative;
-
+   
 }
 
 .menü-1{
     display: block;
     width: fit-content;
     height: fit-content;
-    
-    
-    background-color: coral;
-    border:  5px solid orangered;
     box-shadow: 3px 3px 3px red;
 
 }
@@ -55,8 +50,7 @@ display: block;
 
 .hello {
     color: blue;
-    background-color: coral;
-    display: block;
+    display: contents;
     width:50%;
 
     
@@ -64,7 +58,6 @@ display: block;
 .name {
     font-weight: bold;
     color : darkred;
-    background-color: coral;
     display: block;
 width:50%;
 }
@@ -72,7 +65,6 @@ width:50%;
     display: block;
     width: fit-content;
     height: fit-content;
-   background-color: coral;
    font-size: 15px;
    
    }
@@ -88,10 +80,7 @@ left: 0;
    
   }
 #cim2{
-    display: block;
-    height: fit-content;
-    width: fit-content;
-    background-color: coral;
+   
     color: darkred;
     position: relative;
     left: 0;
@@ -106,20 +95,18 @@ width:50%;
 .content {
     color: blue;
     font-weight: lighter;
-    background-color: coral;
+   
 }
 
 p{
     font-family: 'Lora', serif;
     text-align: center;
     color: indigo;
-    display: block;
+    display: contents;
     position: absolute;
-    top: auto;
-    left: 10cm;
+    
 width:50%;
-column-span: all;
-column-width: 200px;
+
 
     
     
@@ -128,26 +115,25 @@ ul{
     font-style: initial;
     color: black;
     text-align: left;
-    background-color: coral;
-    border: 5px solid orangered;
+    
 }
 ol{
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
     color: maroon;
     text-align: left;
-    background-color: coral;
+
 }
 table{
     color: black;
-    background-color: coral;
+
 }
 .open{
     font-size: 50px;
     display: block;
     height: fit-content;
     width: fit-content;
-    background-color: coral;
+
     position: relative;
     left: 0;
 }

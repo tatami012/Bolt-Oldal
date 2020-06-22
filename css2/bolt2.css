@@ -6,9 +6,9 @@
     position: fixed;
     right: 20px;
     top: 350px;
-    border: solid 2px orangered;
+    border: solid 2px #c0c0c0;
     padding: 2px;
-    box-shadow: 0 0 10px orangered;
+    box-shadow: 0 0 10px #a0a0a0;
     top: 5em;
 }
 .login-div input[type="Email"]{
@@ -27,7 +27,7 @@ height: fit-content;
     
   }
   .login-div button:hover {
-      box-shadow: 2px 2px 10px  red;
+      box-shadow: 2px 2px 10px  #f1f1f1;
   }
   #login{
       display: block;
@@ -36,6 +36,9 @@ height: fit-content;
        padding:  5px;
         font-size: 15px;
         background-color: white;
-               border: solid 2px blue; 
+               border: solid 2px black; 
         bottom: auto;
-  }  
+  } 
+  .menü :hover{
+    box-shadow: 2px 2px 2px black;
+  } 
