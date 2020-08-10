@@ -16,4 +16,9 @@ alert("minimum 1 terméket rendelhet!");
      let amount = parseInt (amountinput.value)*price;
 showAmount.innerHTML = amount;
 }
-}
+
+
+let myList = document.querySelectorAll("input");
+for ( let i=0; i < myList.length; i++) {
+myList[i].style.backgroundColor = "green";}
+
