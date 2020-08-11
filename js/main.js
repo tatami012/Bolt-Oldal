@@ -17,8 +17,16 @@ alert("minimum 1 terméket rendelhet!");
 showAmount.innerHTML = amount;
 }
 
+function massModify( selector, attribute, value) {
+let nodeList= document.querySelectorAll(selector);
+for ( let i=0; i < nodeList.length; i++) {
+nodeList[i] [attribute]= value;
+        }
+}
+massModify ( "input", "placeholder", "Tamas")
 
 let myList = document.querySelectorAll("input");
 for ( let i=0; i < myList.length; i++) {
-myList[i].style.backgroundColor = "green";}
-
+myList[i].style.border = "solid 2px green";}
+}
+myList[i];
